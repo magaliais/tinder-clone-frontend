@@ -1,14 +1,14 @@
 import './global.css';
 import { Header } from './components/Header';
+import { TinderCards } from './components/TinderCards';
 
 function App() {
 
   return (
     <div className="App">
-      <h1>MERN Tinder Clone</h1>
       {/* Header */}
       <Header />
-      {/* TinderCars */}
+      <TinderCards />
       {/* SwipeButtons */}
     </div>
   );
