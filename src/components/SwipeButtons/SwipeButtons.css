@@ -1,0 +1,32 @@
+.swipe-buttons-container {
+  position: fixed;
+  bottom: 5vh;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.swipe-button {
+  background-color: #fff;
+  box-shadow: 0px 10px 53px 0px rgba(0,0,0,0.3);
+}
+
+.swipe-button.repeat {
+  color: #f5b748
+}
+
+.swipe-button.left {
+  color: #ec5e6f;
+}
+
+.swipe-button.star {
+  color: #62b4f9
+}
+
+.swipe-button.right {
+  color: #76e2b3;
+}
+
+.swipe-button.lightning {
+  color: #915dd1;
+}
