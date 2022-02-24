@@ -8,8 +8,6 @@ import juninhoPhoto from '../../../public/images/juninho.jpg';
 import robertoPhoto from '../../../public/images/roberto.jpeg';
 import violaPhoto from '../../../public/images/viola.png';
 
-import { SwipeableDrawer } from '@material-ui/core';
-
 export function TinderCards() {
   const [people, setPeople] = useState([
     {
